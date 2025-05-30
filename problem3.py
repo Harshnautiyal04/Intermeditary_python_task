@@ -6,4 +6,4 @@ pwd = input("Enter password : ")
 if pwd.isalnum() and 8 <= len(pwd) <=20:
     print(f"The password is {pwd}.")
 else:
-    print(f"Sorry,The password {pwd} is invalid the criteria is not match!")
+    print(f"Sorry,The password {pwd} is invalid the password criteria is not match!")
